@@ -75,6 +75,10 @@ header + img {
     gap: 0.3em;
 }
 
+.socials-list > div > a {
+    flex: none;
+}
+
 .socials-list img {
     height: 1em;
 }
