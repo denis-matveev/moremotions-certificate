@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'Stem light';
+    src: url('fonts/STM45.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'Stem medium';
+    src: url('fonts/STM65.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+/* GLOBAL STYLES */
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 2rem;
+    font-family: 'Stem light', sans-serif;
+    color: #3C3D42;
+}
+
+strong, .socials-list, h1, h3 {
+    font-family: 'Stem medium', sans-serif;
+}
+
+h1 {
+    font-size: 2.75rem;
+}
+
+h2 {
+    font-size: 1.25rem;
+}
+
+p, ul {
+    line-height: 140%;
+}
+
+a {
+    color: #3C3D42;
+    text-decoration-thickness: 0.08em;
+    text-decoration-color:darkgrey ;
+}
+
+ul {
+    margin: 0.5em 0 0.5em 1em;
+    list-style-type: "–";
+}
+
+li {
+    padding-left: 0.5em;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+header + img {
+    height: 75px;
+}
+
+.socials-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25em;
+    font-size: 0.74rem;
+}
+
+.socials-list > div {
+    display: flex;
+    align-items: center;
+    gap: 0.3em;
+}
+
+.socials-list img {
+    height: 1em;
+}
+
+main {
+    margin: 20px 0;
+}
+
+/* BANNER */
+#banner {
+    padding: 27px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    background: linear-gradient(white, white) padding-box,
+                linear-gradient(36.44deg, #52D7FF 14.25%, #389EEC 35.15%, #EC3082 86.31%) border-box;
+    border-radius: 32px;
+    border: 6px solid transparent;
+    text-align: center;
+}
+
+#banner > :first-child {
+    text-transform: uppercase;
+    line-height: 150%;
+    margin-bottom: 12px;
+}
+
+/* CREDENTIALS */
+#credentials {
+    margin-top: 20px;
+}
+
+#limitations {
+    margin: 16px 0;
+    display: flex;
+    gap: 12px;
+}
+
+#limitations > h2 {
+    padding: 10px 16px;
+    background: linear-gradient(white, white) padding-box,
+                linear-gradient(36.44deg, #52D7FF 14.25%, #389EEC 35.15%, #EC3082 86.31%) border-box;
+    border-radius: 2em;
+    border: 3px solid transparent;
+}
+
+/* DESCRIPTION */
+#description > p:last-child {
+    margin-top: 1rem;
+    font-size: 0.8em;
+    line-height: 120%;
+}
+
+/* FOOTER */
+footer {
+    font-size: 0.8em;
+}
+
+.separator {
+    height: 3px;
+    margin-bottom: 20px;
+    background: #3C3D42;
+}
+
+footer img {
+    height: 200px;
+}
+
+footer ul {
+    margin-bottom: 1rem;
+}
+
+footer > div:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+}
