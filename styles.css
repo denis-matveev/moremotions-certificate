@@ -15,7 +15,7 @@ html {
 
 body {
     margin: 0;
-    padding: 2rem;
+    padding: 3rem;
     font-family: 'Stem light', sans-serif;
     color: #3C3D42;
 }
@@ -85,6 +85,7 @@ main {
 
 /* BANNER */
 #banner {
+    margin: 0 -1.5rem;
     padding: 27px;
     display: flex;
     flex-direction: column;
